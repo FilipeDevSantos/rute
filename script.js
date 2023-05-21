@@ -35,5 +35,5 @@ function naoButton() {
 
     nao.style.position = "absolute";
     nao.style.left = Math.floor(Math.random() * 650) + "px";
-    nao.style.top = Math.floor(Math.random() * 650) + "px";
+    nao.style.top = Math.floor(Math.random() * 600) + "px";
 }
