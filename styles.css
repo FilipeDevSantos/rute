@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(243, 38, 38);
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo {
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    font-size: 5rem;
+}
+
+.area-buttons {
+    margin-top: 6%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    color: rgb(243, 38, 38);
+    padding: 8px;
+    border: 0;
+    width: 12%;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(219, 219, 219);
+}
+
+.aceitou {
+    display: none;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aceitou p {
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-content {
+    background-color: #383636;
+    width: 400px;
+    margin: 200px auto;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+  }
+
+  #tituloModal {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+  }
+  
+  .modal-buttons {
+    margin-top: 20px;
+  }
+  
+  .modal-buttons button {
+    margin: 0 10px;
+    width: 25%;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+  }
+  
